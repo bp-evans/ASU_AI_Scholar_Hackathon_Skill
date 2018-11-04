@@ -1,0 +1,159 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "on the spot",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+          
+          ]
+        },
+        {
+          "name": "CanvasProgressIntent",
+          "slots" : [
+
+          ],
+          "samples" : [
+            "how far am i through my class",
+            "how are my class assignment looking",
+            "what is left to do in my class"
+          ]
+        },
+        {
+          "name": "CanvasTermIntent",
+          "slots" : [
+            
+          ],
+          "samples": [
+            "what academic term am i in",
+            "when does this term end",
+            "when does the semester end"
+          ]
+        },
+        {
+          "name": "CanvasDateIntent",
+          "slots": [
+            {
+              "name": "item",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "whats coming up in {item}",
+            "whats going on in my {item} class",
+            "what is my schedule in {item} class"
+          ]
+        },
+        {
+          "name": "CanvasClassIntent",
+          "slots": [
+            {
+              "name": "item",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "give me info about my {item} class",
+            "tell me about my {item} class",
+            "how are things going in {item}"
+          ]
+        },
+        {
+          "name": "TextFileIntent",
+          "slots": [
+            {
+              "name": "file",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples" : [
+            "read {file}",
+            "read me {file}"
+          ]
+        },
+        {
+          "name": "WolframIntent",
+          "slots": [
+            {
+              "name": "q",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "calculate",
+            "calculate {q}",
+            "what is {q}",
+            "tell me about {q}",
+            "what are {q}"
+          ]
+        },
+        {
+          "name": "MysteryGameIntent",
+          "slots": [
+            {
+              "name": "code",
+              "type": "CODES"
+            }
+          ],
+          "samples": [
+            "scavenger",
+            "{code}"
+          ]
+        },
+        {
+          "name": "HelpEducateIntent",
+          "slots" : [
+          
+          ],
+          "samples": [
+            "help",
+            "on the spot help"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "hello",
+            "say hello",
+            "say hello world"
+          ]
+        }
+      ],
+    
+      "types": [
+        {
+          "name": "LIST_OPTIONS",
+          "values": [
+            {"name":{"value":"options"}},
+            {"name":{"value":"calculate"}}
+          ]
+        },
+        {
+          "name": "CODES",
+          "values": [
+            {"name":{"value":"bear"}}
+          ]
+        }
+      ]
+    }
+  }
+}
