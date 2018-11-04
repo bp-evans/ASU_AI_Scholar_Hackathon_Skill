@@ -1,0 +1,91 @@
+{
+    
+    "id": 370663,
+    
+    "siscourseid": "Chinese 101 First Year Chinese",
+  
+    "uuid": "WvAHhY5FINzq5IyRIJybGeiXyFkG3SqHUPb7jZY5",
+   
+    "integration_id": null,
+   
+    "sis_import_id": 34,
+    
+    "name": "InstructureCon 2012",
+    
+    "course_code": "CHI101",
+    
+    "workflow_state": "available",
+    
+    "account_id": 81259,
+    
+    "root_account_id": 81259,
+    
+    "enrollment_term_id": 34,
+    
+    "grading_standard_id": 25,
+    
+    "created_at": "2012-05-01T00:00:00-06:00",
+    
+    "start_at": "2012-06-01T00:00:00-06:00",
+    
+    "end_at": "2012-09-01T00:00:00-06:00",
+    
+    "locale": "en",
+    
+    "enrollments": null,
+    
+    "totalstudents": 22,
+    
+    "calendar": null,
+
+    "default_view": "feed",
+    
+    "syllabus_body": "",
+
+    "needs_grading_count": 17,
+    
+    "term": 1,
+    
+    "courseprogress": "50 percent",
+    
+    "apply_assignment_group_weights": true,
+    
+    "permissions": {"create_discussion_topic":true,"create_announcement":true},
+    "is_public": true,
+    "is_public_to_auth_users": true,
+    "public_syllabus": true,
+    "public_syllabus_to_auth": true,
+    
+    "storage_quota_mb": 5,
+    "storage_quota_used_mb": 5,
+    "hide_final_grades": false,
+    "license": "Creative Commons",
+    "allow_student_assignment_edits": false,
+    "allow_wiki_comments": false,
+    "allow_student_forum_attachments": false,
+    "open_enrollment": true,
+    "self_enrollment": false,
+    "restrict_enrollments_to_course_dates": false,
+    "course_format": "online",
+    
+    "access_restricted_by_date": false,
+    
+    "timezone": "America/Phoenix",
+    
+    "blueprint": true,
+    
+    "blueprint_restrictions": {"content":true,"points":true,"due_dates":false,"availability_dates":false},
+    
+    "blueprint_restrictions_by_object_type": {"assignment":{"content":true,"points":true},"wiki_page":{"content":true}},
+
+    "grade": "A+",
+    "description": "Chinese 101 is a great introduction to the chinese language. It will teach grammer, sentence structure, characters, pinyin, tone, and much more.",
+    "projects": "Project1, Project2, and Project3",
+    "pdates": "September 27, November 16, November 26",
+    "oraltests": "oral test 1 and oral test 2",
+    "odates": "October 11, November 28",
+    "writtentests": "written test 1 and written test 2",
+    "wdates": "November 15, November 19",
+    "quizes": "once a week",
+    "qdates": "Tuesday, November 13"
+  }

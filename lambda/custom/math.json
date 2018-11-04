@@ -1,0 +1,87 @@
+{
+    
+    "id": 370663,
+    
+    "siscourseid": "MAT 267 Calculus III for Engineers",
+  
+    "uuid": "WvAHhY5FINzq5IyRIJybGeiXyFkG3SqHUPb7jZY5",
+   
+    "integration_id": null,
+   
+    "sis_import_id": 34,
+    
+    "name": "InstructureCon 2012",
+    
+    "course_code": "INSTCON12",
+    
+    "workflow_state": "available",
+    
+    "account_id": 81259,
+    
+    "root_account_id": 81259,
+    
+    "enrollment_term_id": 34,
+    
+    "grading_standard_id": 25,
+    
+    "created_at": "2012-05-01T00:00:00-06:00",
+    
+    "start_at": "2012-06-01T00:00:00-06:00",
+    
+    "end_at": "2012-09-01T00:00:00-06:00",
+    
+    "locale": "en",
+    
+    "enrollments": null,
+    
+    "totalstudents": 70,
+    
+    "calendar": null,
+
+    "default_view": "feed",
+    
+    "syllabus_body": "",
+
+    "needs_grading_count": 17,
+    
+    "term": 1,
+    
+    "courseprogress": "50 percent",
+    
+    "apply_assignment_group_weights": true,
+    
+    "permissions": {"create_discussion_topic":true,"create_announcement":true},
+    "is_public": true,
+    "is_public_to_auth_users": true,
+    "public_syllabus": true,
+    "public_syllabus_to_auth": true,
+    
+    "storage_quota_mb": 5,
+    "storage_quota_used_mb": 5,
+    "hide_final_grades": false,
+    "license": "Creative Commons",
+    "allow_student_assignment_edits": false,
+    "allow_wiki_comments": false,
+    "allow_student_forum_attachments": false,
+    "open_enrollment": true,
+    "self_enrollment": false,
+    "restrict_enrollments_to_course_dates": false,
+    "course_format": "online",
+    
+    "access_restricted_by_date": false,
+    
+    "timezone": "America/Phoenix",
+    
+    "blueprint": true,
+    
+    "blueprint_restrictions": {"content":true,"points":true,"due_dates":false,"availability_dates":false},
+    
+    "blueprint_restrictions_by_object_type": {"assignment":{"content":true,"points":true},"wiki_page":{"content":true}},
+
+    "grade": "A",
+    "description": "Calculus III for Engineers goes over advance calculus topics. These varied topics include things such as Double Integrals, triple Integrals, directional derivatives, tangent planes parallel to a surface, 3d coordinate systems, and much more.",
+    "testdates": "September 19 and October 29",
+    "webworkdates": "This Friday"
+
+    
+  }
